@@ -7,8 +7,40 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>NOMENCLATURA BEM</h1>
-
-    <h1>NOMENCLATURA SUITCSS</h1>
+    <!-- Según la nomenclatura BEM cuando nombramos un
+     bloque lo escribimos como en el elemento section -->
+    <section class="section">
+        <!-- Según la nomenclatura BEM cuando nombramos un
+        elemento de un bloque, escribimos primero el bloque y 
+        luego dos  __ y luego el elemento -->
+        <Header class="section__title">
+            <h1>NOMENCLATURA BEM</h1>
+        </Header>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolor voluptate sit laboriosam ut totam sed nulla id soluta itaque et, modi, dicta eligendi neque labore culpa tenetur facere a!</p>
+             <!-- Según la nomenclatura BEM cuando nombramos un
+            modificador de un elemento de un bloque, escribimos primero el bloque y 
+            luego dos  __   luego el elemento y seguido de -- el modificador -->
+            <Button class="article__button article__button--active">Ver</Button>
+        </article>
+    </section>
+    <!-- Según la nomenclatura SUITCSS cuando nombramos un
+     bloque lo escribimos como en el elemento section pero en Pascalcase
+     que empieza con mayúscula la primera letra -->
+     <section class="Section">
+        <!-- Según la nomenclatura SUITCSS cuando nombramos un
+        elemento de un bloque, escribimos primero el bloque y 
+        luego - y luego el elemento -->
+        <Header class="Section-Title">
+            <h1>NOMENCLATURA SUITCSS</h1>
+        </Header>
+        <article>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolor voluptate sit laboriosam ut totam sed nulla id soluta itaque et, modi, dicta eligendi neque labore culpa tenetur facere a!</p>
+             <!-- Según la nomenclatura SUITCSS cuando nombramos un
+            modificador de un elemento de un bloque, escribimos primero el bloque y 
+            luego -  luego el elemento y seguido de -- el modificador -->
+            <Button class="Article-button Article-button--active">Ver</Button>
+        </article>
+    </section>
 </body>
 </html>
