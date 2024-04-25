@@ -1,0 +1,7 @@
+@import 'normalice';
+
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: $space-zero;
+    padding: $space-zero;
+}

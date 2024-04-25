@@ -51,3 +51,14 @@
 .Menu--isLiked {...}
 
 ---
+
+#SMACSS
+
+Arquitectura en la organizamos los estilos y componentes por carpetas
+
+1. base: Para estilos generales
+2. layout: Para regiones, secciones area de la página.
+3. Modules: estructura para los componentes.
+4. state: para los estados de los componentes.
+5. theme: almacena las variables de colores, tipografías y tamaños.
+

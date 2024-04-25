@@ -1,0 +1,23 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: $space-200;
+    height: $space-300;;
+    justify-content: center;
+    border: $space-1 solid $color_primary;
+    padding: $space-default;
+    background-color: $color_white;
+}
+
+.Section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: $space-200;
+    height: $space-300;
+    justify-content: center;
+    border: $space-1 solid $color_primary;
+    padding: $space-default;
+    background-color: $color_white;
+}
